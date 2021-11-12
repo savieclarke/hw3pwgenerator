@@ -6,6 +6,9 @@ function generatePassword() {
 
   var length = parseInt(window.prompt("How long do you want your password? Characters 8-128"));
 
+  var lowercase = confirm("Do you want lowercase?");
+
+  var uppercase = confirm("Do you want uppercase?");
 
   return "the generated password"
 
