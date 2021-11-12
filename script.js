@@ -10,6 +10,11 @@ function generatePassword() {
 
   var uppercase = confirm("Do you want uppercase?");
 
+  var numbers = confirm("Do you want numbers?");
+
+  var characters = confirm("Do you want special characters?");
+
+
   return "the generated password"
 
 };
