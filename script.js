@@ -13,6 +13,13 @@ function generatePassword() {
 
   var lowercase = confirm("Do you want lowercase?");
 
+  if (!lowercase) {
+    alert("error", "Needs a length")
+
+
+  }
+
+
   var uppercase = confirm("Do you want uppercase?");
 
   var numbers = confirm("Do you want numbers?");
