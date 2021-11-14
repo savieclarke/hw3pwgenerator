@@ -5,6 +5,11 @@ function generatePassword() {
   console.log("you clicked the button")
 
   var length = parseInt(window.prompt("How long do you want your password? Characters 8-128"));
+  if (!length) {
+    alert("error", "Needs a length")
+
+
+  }
 
   var lowercase = confirm("Do you want lowercase?");
 
@@ -14,6 +19,7 @@ function generatePassword() {
 
   var characters = confirm("Do you want special characters?");
 
+  
 
   return "the generated password"
 
